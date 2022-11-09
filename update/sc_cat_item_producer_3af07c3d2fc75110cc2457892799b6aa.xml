@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Create</name>
+        <name>Create New</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -87,7 +87,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-09 09:08:24</sys_created_on>
         <sys_id>3af07c3d2fc75110cc2457892799b6aa</sys_id>
-        <sys_name>Create</sys_name>
+        <sys_name>Create New</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="de6d8d132f431110cc2457892799b6ec" label="Needlt" max_length="40" name="x_58872_needit_ni0020004" type="collection">
+        <element label="Address" max_length="255" name="address" type="string"/>
+        <element label="Age" max_length="100" name="age" type="float"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Department" max_length="32" name="department" read_only="true" reference="cmn_department" type="reference"/>
+        <element display="true" label="Name" max_length="100" name="student_name" type="string"/>
+        <element label="Reference" max_length="32" name="s_reference" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="s_reference"/>
+        </index>
+    </element>
+</database>

@@ -30,13 +30,12 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
-	// Add your code here
-	//GlideRecord
-	//Lay theo dk cua field referent(user)
-	// Query ra department
-	// Tra ve values cho truong department
-
+	var getDepartment = new GlideRecord('sys_user');
+	getDepartment.addQuery('sys_id','=',current.s_reference);
+	getDepartment.query();
+	if(getDepartment.next()){
+		current.department = getDepartment.department;
+	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
